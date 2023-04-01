@@ -1,0 +1,14 @@
+{
+  "name": "databaze",
+  "version": "1.0.0",
+  "description": "Databaze znamek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matěj Zimmer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

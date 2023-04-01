@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Známky žáků</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="bg-success text-center p-2">
+        <h1 class="display-4 text-white">Známky žáků</h1>
+    
+    </header>
+    <main class="container">
+        <h2 class="bg-dark text-light text-center p-3 mt-3">Zadání známky z předmětu</h2>
+        <div class="container">
+            <form>
+                <div class="form-group row">
+                    <label for="ukol" class="col-sm-2 bg-dark text-light col-form-label">Jméno žáka</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="name" id="name"
+                            placeholder="Jak se žák jmenuje">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="ukol" class="col-sm-2 bg-dark text-light col-form-label">Příjmení žáka</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="surname" id="surname"
+                            placeholder="Jaké má žák příjmení">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="predmet" class="col-sm-2 bg-dark text-light col-form-label">Známka</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" name="znamka" id="znamka">
+                            <option value="1">1</option>
+                            <option value="1-2">1-2</option>
+                            <option value="2">2</option>
+                            <option value="2-3">2-3</option>
+                            <option value="3">3</option>
+                            <option value="3-4">3-4</option>
+                            <option value="4">4</option>
+                            <option value="4-5">4-5</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="predmet" class="col-sm-2 bg-dark text-light col-form-label">Předmět</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" name="predmet" id="predmet">
+                            <option value="Anglický jazyk">Anglický jazyk</option>
+                            <option value="Český jazyk">Český jazyk</option>
+                            <option value="Elektrotechnika">Elektrotechnika</option>
+                            <option value="Fyzika">Fyzika</option>
+                            <option value="Hardware">Hardware</option>
+                            <option value="Matematika">Matematika</option>
+                            <option value="Počítačová grafika">Počítačová grafika</option>
+                            <option value="Počítačové sítě">Počítačové sítě</option>
+                            <option value="Programování">Programování</option>
+                            <option value="Programové vybavení">Programové vybavení</option>
+                            <option value="Dějiny a literatura">Dějiny a literatura</option>
+                            <option value="Občanská nauka">Občanská nauka</option>
+                            <option value="Tělesná výchova">Tělesná výchova</option>
+                            </select>                            
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="ukol" class="col-sm-2 bg-dark text-light col-form-label">Poznámka</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="note" id="note"
+                            placeholder="Poznámka k známce">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-sm-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">Odevzdat</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="bg-light text-center p-3">
+        
+        <p>&copy; 2023 - Matěj Zimmer, IT2</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-
+q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

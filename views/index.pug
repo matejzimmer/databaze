@@ -1,0 +1,32 @@
+doctype html
+html
+    head
+        title Známky žáků
+        link(rel='stylesheet' href='https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css')
+    body
+        header.jumbotron-fluid.bg-primary.p-2
+            h1.text-center.text-white #{nadpis}
+        main.container
+            table(class="table table-striped")
+                thead
+                    tr.bg-success.text-light
+                        th Jméno
+                        th Příjmení
+                        th Známka
+                        th Předmět 
+                        th Poznámka
+                tbody
+                    each col in znamky
+                        tr.bg-light
+                            td #{col.name}
+                            td #{col.surname}
+                            td #{col.znamka}
+                            td #{col.predmet}
+                            td #{col.note}
+            footer.bg-success.p-2
+                .container.text-dark
+                    p.float-right
+                        a(href="/") Zpět na formulář
+                    p &copy; 2023 Matěj Zimmer - IT2
+            script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js')
+            script(src='https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js')
